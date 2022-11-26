@@ -1,6 +1,7 @@
 ######################
 # Project Specific
 ######################
+HELP.md
 /build/www/**
 /src/test/javascript/coverage/
 /src/test/javascript/PhantomJS*/
@@ -139,3 +140,21 @@ Desktop.ini
 # ESLint
 ######################
 .eslintcache
+
+######################
+# From my other project
+######################
+!**/src/main/**/build/
+!**/src/main/**/target/
+!**/src/test/**/build/
+!**/src/test/**/target/
+.apt_generated
+.springBeans
+.sts4-cache
+/.nb-gradle/
+/dist/
+/nbbuild/
+/nbdist/
+/nbproject/private/
+build/
+target/
