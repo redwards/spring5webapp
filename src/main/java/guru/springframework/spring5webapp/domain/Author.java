@@ -60,11 +60,11 @@ public class Author {
 
     @Override
     public String toString() {
-        return "Author{" +
+        return "Author: {" +
                 "id=" + id +
-                ", firstName='" + firstName + '\'' +
-                ", lastName='" + lastName + '\'' +
-                ", books=" + books +
+                ", firstName=\"" + firstName + '"' +
+                ", lastName=\"" + lastName + '"' +
+                // ", books=" + books +
                 '}';
     }
 
